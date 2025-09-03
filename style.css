@@ -132,7 +132,6 @@ body{
        right: 750px;
     }
 
-    /* Dumaloq logotip */
     .circle-text {
       position: absolute;
       top: 30%;
@@ -184,11 +183,10 @@ body{
       color: #fff9f9;
     }
 
-    /* Statistik ma’lumotlar */
+    
     .stats {
-      /* margin-left: 40px; */
       background: #222;
-      padding: 23px 0;
+      padding: 48px 0;
     }
 
     .stat-item {
@@ -319,6 +317,7 @@ button {
     border: none;
     color: white;
     font-size: 25px;
+    margin-top: 20px;
 }
 button::before {
     content: "";
@@ -817,7 +816,7 @@ button::before {
     font-weight: 500;
 }
 .latest--text img{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 
@@ -874,7 +873,7 @@ button::before {
       font-size: 60px;
       font-weight: bold;
       color: white;
-      line-height: 1.4;
+      line-height: 60px;
     }
 
     .overlay-box h2 span {
@@ -910,7 +909,7 @@ button::before {
       margin-top: 8px;
     }
 
-    /* Responsivlik */
+    
     @media (max-width: 1406px) {
       .overlay-box {
         flex-direction: column;
@@ -958,6 +957,7 @@ button::before {
 
     .footer-left p {
       color: #ccc;
+      width: 267px;
       font-size: 15px;
       line-height: 1.6;
       margin-bottom: 20px;
@@ -966,7 +966,7 @@ button::before {
     .contact-btn {
       display: inline-block;
       background-color: #f4b17a;
-      color: #1a1a1a;
+      color: #ffffff;
       padding: 10px 20px;
       border-radius: 3px;
       text-decoration: none;
@@ -981,7 +981,6 @@ button::before {
     .footer-right {
       display: flex;
       flex-wrap: wrap;
-      gap: 40px;
     }
 
     .footer-column {
